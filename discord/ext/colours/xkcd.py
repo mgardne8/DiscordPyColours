@@ -4760,3 +4760,6 @@ class XKCDColour(Colour):
     def warm_pink(cls):
         """A factory method that returns a :class:`Colour` with a value of ``0xfb5581``."""
         return cls(0xfb5581)
+
+
+XKCDColor = XKCDColour
