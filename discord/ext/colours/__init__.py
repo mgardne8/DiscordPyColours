@@ -7,6 +7,9 @@ An extension module to extend discord.py's colour class
 :copyright: (c) 2017 MGardne8
 :license: GPL, see LICENSE for more details.
 """
+from .crayon import *
+from .xkcd import *
+
 __title__ = 'discord.ext.colours'
 __author__ = 'Mgardne8'
 __license__ = 'GPLv3'
