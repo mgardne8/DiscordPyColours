@@ -25,7 +25,7 @@ if version.endswith(('a', 'b', 'rc')):
 with open('README.md') as f:
     readme = f.read()
 
-setup(name='DiscordPyColours',
+setup(name='discord-ext-colours',
       author='MGardne8',
       url='https://github.com/MGardne8/DiscordPyColours',
       version=version,
@@ -38,7 +38,7 @@ setup(name='DiscordPyColours',
       extras_require=None,
       classifiers=[
         'Development Status :: 4 - Beta',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3))',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'Operating System :: OS Independent',
