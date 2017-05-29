@@ -613,3 +613,6 @@ class CrayonColour(Colour):
     def piggy_pink(cls):
         """A factory method that returns a :class:`Colour` with a value of ``0xFDDDE6``."""
         return cls(0xFDDDE6)
+
+
+CrayonColor = CrayonColour
